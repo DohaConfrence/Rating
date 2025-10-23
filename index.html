@@ -125,6 +125,11 @@ header h1 {
   font-size: 16px;
 }
 
+.question label span.required {
+  color: red;
+  margin-right: 4px;
+}
+
 .rating {
   display: flex;
   justify-content: space-between;
@@ -281,7 +286,7 @@ footer::before {
 
       <!-- 🔹 أولاً: التنظيم العام -->
       <div class="section-title">🔹 أولاً: التنظيم العام</div>
-      <div class="question"><label>1. تم تنظيم المؤتمر بطريقة احترافية وسلسة.</label>
+        <div class="question"><label><span class="required">*</span>تم تنظيم المؤتمر بطريقة احترافية وسلسة..</label>
         <div class="rating">
           <label><input type="radio" name="q1" value="موافق بشدة" required>موافق بشدة</label>
           <label><input type="radio" name="q1" value="موافق">موافق</label>
@@ -290,8 +295,7 @@ footer::before {
           <label><input type="radio" name="q1" value="غير موافق بشدة">غير موافق بشدة</label>
         </div>
       </div>
-
-      <div class="question"><label>2. كانت عملية التسجيل والدخول إلى القاعات سهلة وواضحة.</label>
+      <div class="question"><label><span class="required">*</span>كانت عملية التسجيل والدخول إلى القاعات سهلة وواضحة.</label>
         <div class="rating">
           <label><input type="radio" name="q2" value="موافق بشدة" required>موافق بشدة</label>
           <label><input type="radio" name="q2" value="موافق">موافق</label>
@@ -301,7 +305,7 @@ footer::before {
         </div>
       </div>
 
-      <div class="question"><label>3. كانت أوقات الجلسات والورش مناسبة ومنظمة.</label>
+      <div class="question"><label><span class="required">*</span>كانت أوقات الجلسات والورش مناسبة ومنظمة.</label>
         <div class="rating">
           <label><input type="radio" name="q3" value="موافق بشدة" required>موافق بشدة</label>
           <label><input type="radio" name="q3" value="موافق">موافق</label>
@@ -311,7 +315,7 @@ footer::before {
         </div>
       </div>
 
-      <div class="question"><label>4. كان التواصل مع فريق الدعم سهلاً وفعّالاً.</label>
+      <div class="question"><label><span class="required">*</span>كان التواصل مع فريق الدعم سهلاً وفعّالاً.</label>
         <div class="rating">
           <label><input type="radio" name="q4" value="موافق بشدة" required>موافق بشدة</label>
           <label><input type="radio" name="q4" value="موافق">موافق</label>
@@ -321,7 +325,7 @@ footer::before {
         </div>
       </div>
 
-      <div class="question"><label>5. كانت المعلومات المقدمة عن المؤتمر واضحة وكافية قبل الفعالية.</label>
+      <div class="question"><label><span class="required">*</span>كانت المعلومات المقدمة عن المؤتمر واضحة وكافية قبل الفعالية.</label>
         <div class="rating">
           <label><input type="radio" name="q5" value="موافق بشدة" required>موافق بشدة</label>
           <label><input type="radio" name="q5" value="موافق">موافق</label>
@@ -333,7 +337,7 @@ footer::before {
 
       <!-- 🔹 ثانيًا: محتوى المؤتمر -->
       <div class="section-title">🔹 ثانيًا: محتوى المؤتمر</div>
-      <div class="question"><label>6. كانت المواضيع المطروحة في الجلسات والورش مفيدة ومواكبة للتطور.</label>
+      <div class="question"><label><span class="required">*</span>كانت المواضيع المطروحة في الجلسات والورش مفيدة ومواكبة للتطور.</label>
         <div class="rating">
           <label><input type="radio" name="q6" value="موافق بشدة" required>موافق بشدة</label>
           <label><input type="radio" name="q6" value="موافق">موافق</label>
@@ -343,7 +347,7 @@ footer::before {
         </div>
       </div>
 
-      <div class="question"><label>7. كانت جودة المتحدثين والمدربين عالية ومميزة.</label>
+      <div class="question"><label><span class="required">*</span>كانت جودة المتحدثين والمدربين عالية ومميزة.</label>
         <div class="rating">
           <label><input type="radio" name="q7" value="موافق بشدة" required>موافق بشدة</label>
           <label><input type="radio" name="q7" value="موافق">موافق</label>
@@ -353,7 +357,7 @@ footer::before {
         </div>
       </div>
 
-      <div class="question"><label>8. كانت المادة التدريبية المقدمة مفهومة ومفيدة.</label>
+      <div class="question"><label><span class="required">*</span>كانت المادة التدريبية المقدمة مفهومة ومفيدة.</label>
         <div class="rating">
           <label><input type="radio" name="q8" value="موافق بشدة" required>موافق بشدة</label>
           <label><input type="radio" name="q8" value="موافق">موافق</label>
@@ -363,7 +367,7 @@ footer::before {
         </div>
       </div>
 
-      <div class="question"><label>9. ساهم المؤتمر في زيادة معرفتي ومهاراتي المهنية.</label>
+      <div class="question"><label><span class="required">*</span>ساهم المؤتمر في زيادة معرفتي ومهاراتي المهنية.</label>
         <div class="rating">
           <label><input type="radio" name="q9" value="موافق بشدة" required>موافق بشدة</label>
           <label><input type="radio" name="q9" value="موافق">موافق</label>
@@ -373,7 +377,7 @@ footer::before {
         </div>
       </div>
 
-      <div class="question"><label>10. كان التفاعل داخل الورش التدريبية مشجعًا ومحفزًا.</label>
+      <div class="question"><label><span class="required">*</span>كان التفاعل داخل الورش التدريبية مشجعًا ومحفزًا.</label>
         <div class="rating">
           <label><input type="radio" name="q10" value="موافق بشدة" required>موافق بشدة</label>
           <label><input type="radio" name="q10" value="موافق">موافق</label>
@@ -385,7 +389,7 @@ footer::before {
 
       <!-- 🔹 ثالثًا: الجوانب اللوجستية -->
       <div class="section-title">🔹 ثالثًا: الجوانب اللوجستية</div>
-      <div class="question"><label>11. كانت القاعات مجهزة بشكل مريح ومناسب للعروض التقديمية.</label>
+      <div class="question"><label><span class="required">*</span>كانت القاعات مجهزة بشكل مريح ومناسب للعروض التقديمية.</label>
         <div class="rating">
           <label><input type="radio" name="q11" value="موافق بشدة" required>موافق بشدة</label>
           <label><input type="radio" name="q11" value="موافق">موافق</label>
@@ -395,7 +399,7 @@ footer::before {
         </div>
       </div>
 
-      <div class="question"><label>12. كانت جودة الصوت والعرض المرئي (الشاشات/البروجيكتور) ممتازة.</label>
+      <div class="question"><label><span class="required">*</span>كانت جودة الصوت والعرض المرئي (الشاشات/البروجيكتور) ممتازة.</label>
         <div class="rating">
           <label><input type="radio" name="q12" value="موافق بشدة" required>موافق بشدة</label>
           <label><input type="radio" name="q12" value="موافق">موافق</label>
@@ -405,7 +409,7 @@ footer::before {
         </div>
       </div>
 
-      <div class="question"><label>13. كانت الخدمات المساندة (الاستقبال – الضيافة – الإرشاد) مرضية.</label>
+      <div class="question"><label><span class="required">*</span>كانت الخدمات المساندة (الاستقبال – الضيافة – الإرشاد) مرضية.</label>
         <div class="rating">
           <label><input type="radio" name="q13" value="موافق بشدة" required>موافق بشدة</label>
           <label><input type="radio" name="q13" value="موافق">موافق</label>
@@ -415,7 +419,7 @@ footer::before {
         </div>
       </div>
 
-      <div class="question"><label>14. كان موقع المؤتمر مناسبًا وسهل الوصول إليه.</label>
+      <div class="question"><label><span class="required">*</span>كان موقع المؤتمر مناسبًا وسهل الوصول إليه.</label>
         <div class="rating">
           <label><input type="radio" name="q14" value="موافق بشدة" required>موافق بشدة</label>
           <label><input type="radio" name="q14" value="موافق">موافق</label>
@@ -427,7 +431,7 @@ footer::before {
 
       <!-- 🔹 رابعًا: الانطباع العام -->
       <div class="section-title">🔹 رابعًا: الانطباع العام</div>
-      <div class="question"><label>15. أعتبر المؤتمر تجربة ناجحة تستحق الحضور مرة أخرى.</label>
+      <div class="question"><label><span class="required">*</span>أعتبر المؤتمر تجربة ناجحة تستحق الحضور مرة أخرى.</label>
         <div class="rating">
           <label><input type="radio" name="q15" value="موافق بشدة" required>موافق بشدة</label>
           <label><input type="radio" name="q15" value="موافق">موافق</label>
@@ -437,7 +441,7 @@ footer::before {
         </div>
       </div>
 
-      <div class="question"><label>16. سأوصي الآخرين بحضور النسخة القادمة من المؤتمر.</label>
+      <div class="question"><label><span class="required">*</span>سأوصي الآخرين بحضور النسخة القادمة من المؤتمر.</label>
         <div class="rating">
           <label><input type="radio" name="q16" value="موافق بشدة" required>موافق بشدة</label>
           <label><input type="radio" name="q16" value="موافق">موافق</label>
@@ -447,7 +451,7 @@ footer::before {
         </div>
       </div>
 
-      <div class="question"><label>17. أشعر أن المؤتمر ساهم في تطوير فهمي للتدريب والتطوير المهني.</label>
+      <div class="question"><label><span class="required">*</span>أشعر أن المؤتمر ساهم في تطوير فهمي للتدريب والتطوير المهني.</label>
         <div class="rating">
           <label><input type="radio" name="q17" value="موافق بشدة" required>موافق بشدة</label>
           <label><input type="radio" name="q17" value="موافق">موافق</label>
@@ -457,7 +461,7 @@ footer::before {
         </div>
       </div>
 
-      <div class="question"><label>18. كانت الأجواء العامة للمؤتمر إيجابية ومحفزة للتعلّم.</label>
+      <div class="question"><label><span class="required">*</span>كانت الأجواء العامة للمؤتمر إيجابية ومحفزة للتعلّم.</label>
         <div class="rating">
           <label><input type="radio" name="q18" value="موافق بشدة" required>موافق بشدة</label>
           <label><input type="radio" name="q18" value="موافق">موافق</label>
@@ -467,7 +471,7 @@ footer::before {
         </div>
       </div>
 
-      <div class="question"><label>19. أشعر بالرضا العام عن مشاركتي في المؤتمر.</label>
+      <div class="question"><label><span class="required">*</span>أشعر بالرضا العام عن مشاركتي في المؤتمر.</label>
         <div class="rating">
           <label><input type="radio" name="q19" value="موافق بشدة" required>موافق بشدة</label>
           <label><input type="radio" name="q19" value="موافق">موافق</label>
@@ -479,11 +483,11 @@ footer::before {
 
       <!-- 🔹 خامسًا: مقترحات إضافية -->
       <div class="section-title">🔹 خامسًا: مقترحات إضافية</div>
-      <div class="question"><label>20. ما أكثر ما أعجبك في المؤتمر؟</label>
+      <div class="question"><label>ما أكثر ما أعجبك في المؤتمر؟</label>
         <textarea name="suggestion1" rows="3"></textarea>
       </div>
 
-      <div class="question"><label>21. ما الذي تقترح تطويره في النسخ القادمة؟</label>
+      <div class="question"><label>ما الذي تقترح تطويره في النسخ القادمة؟</label>
         <textarea name="suggestion2" rows="3"></textarea>
       </div>
 
@@ -510,6 +514,20 @@ footer::before {
 <script>
 document.getElementById("evaluationForm").addEventListener("submit", function(e){
   e.preventDefault();
+  const requiredQuestions = this.querySelectorAll('input[required]');
+  let allAnswered = true;
+  requiredQuestions.forEach(q => {
+    const groupName = q.name;
+    if (!document.querySelector('input[name="' + groupName + '"]:checked')) {
+      allAnswered = false;
+    }
+  });
+
+  if (!allAnswered) {
+    alert("الرجاء الإجابة على جميع الأسئلة التي تحمل علامة (*)");
+    return;
+  }
+
   const btn = this.querySelector("button[type='submit']");
   btn.disabled = true;
   btn.textContent = "جاري الإرسال...";
@@ -517,21 +535,25 @@ document.getElementById("evaluationForm").addEventListener("submit", function(e)
   const data = new FormData(this);
   const templateParams = {};
   for (let [key, value] of data.entries()) {
-    templateParams[key] = value || "لم يتم الإدخال";
+        templateParams[key] = value;
   }
 
-  emailjs.send("service_xwrcytw", "template_jsgy8at", templateParams)
-  .then(() => {
-    alert("تم إرسال التقييم بنجاح ✅");
-    btn.textContent = "تم الإرسال";
-  }, (err) => {
-    alert("فشل الإرسال ❌، الرجاء المحاولة لاحقًا");
-    console.error("EmailJS Error:", err);
-    btn.disabled = false;
-    btn.textContent = "إرسال التقييم";
-  });
+  emailjs.send("service_c8vhw1s", "template_0bxwclg", templateParams)
+    .then(() => {
+      alert("✅ تم إرسال التقييم بنجاح، شكرًا لمشاركتك!");
+      btn.disabled = false;
+      btn.textContent = "إرسال التقييم";
+      document.getElementById("evaluationForm").reset();
+    })
+    .catch((error) => {
+      alert("حدث خطأ أثناء الإرسال، يرجى المحاولة مرة أخرى.");
+      console.error("EmailJS Error:", error);
+      btn.disabled = false;
+      btn.textContent = "إرسال التقييم";
+    });
 });
 </script>
 
 </body>
 </html>
+
